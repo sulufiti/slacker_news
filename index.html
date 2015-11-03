@@ -1,35 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>slacker news</title>
-  <meta charset="UTF-8">
-</head>
-<h1>Slacker News, yo</h1>
-<link rel="stylesheet" href="style.css">
-<script src='https://code.jquery.com/jquery-2.1.4.js'></script>
-<script src='comment.js'></script>
-<script src='view/js'></script>
-<script>
-
-
-
-</script>
-
-
-<body>
-  <div id="create-post">
-    <h2> create post</h2>
-    <form>
-      <label for="title">title</label>
-      <input type="text" name="title" id="title"/>
-      <label for="post">post</label>
-      <textarea name="post" id="post"></textarea>
-      <input type="submit" value="create"/>
-   </form>
- </div>
-
-</body>
-
+  <head>
+    <title>slacker news</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+    <script src='src/controller.js'></script>
+    <script src='src/index.js'></script>
+  </head>
+  <h1>Slacker News, yo</h1>
+  <body>
+    <div id="create-post">
+      <h2> create post</h2>
+      <form>
+        <label for="title">title</label>
+        <input type="text" name="title" id="title"/>
+        <label for="post">post</label>
+        <textarea name="post" id="post"></textarea>
+        <input type="submit" value="create"/>
+     </form>
+   </div>
+  </body>
 </html>
 
 
