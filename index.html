@@ -10,7 +10,6 @@
 <script src='comment.js'></script>
 <script src='view/js'></script>
 <script>
-document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
 
 
 
@@ -18,7 +17,17 @@ document.write('<script src="http://' + (location.host || 'localhost').split(':'
 
 
 <body>
-  <input type="text" name="name" />
+  <div id="create-post">
+    <h2> create post</h2>
+    <form>
+      <label for="title">title</label>
+      <input type="text" name="title" id="title"/>
+      <label for="post">post</label>
+      <textarea name="post" id="post"></textarea>
+      <input type="submit" value="create"/>
+   </form>
+ </div>
+
 </body>
 
 </html>

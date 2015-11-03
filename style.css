@@ -4,5 +4,10 @@ h1 {
     font-size:150%;
 }
 
+input, label {
+    display:block;
+}
 
-
+label, input[type="submit"] {
+  margin-top: 10px;
+}
