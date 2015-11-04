@@ -16,15 +16,15 @@ var Controller = (function(){
     $(form).serializeArray().forEach(function(field){
       data[field.name] = field.value
     })
-
-    Controller.prototype.showPost = function(event){
-      myDataref.on('child-added'), function(snapshot){
-        var Post = snapshot.val()
-        console.log(snapshot)
-      }
-
-    }
     return data
   }
-    return Controller
+
+  Controller.prototype.showPosts = function(){
+    myDataRef.on('child_added', function(snapshot){
+      var Post = snapshot.val()
+      view.render(snapshot.val())
+    })
+
+  }
+  return Controller
 })()

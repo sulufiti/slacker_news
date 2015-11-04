@@ -1,8 +1,15 @@
-h1, h2 {
+h1 {
     color:white;
     font-family:courier;
-    font-size:200%;
-    text-shadow:5px 5px 9px pink;
+    font-size:250%;
+    text-shadow:5px 5px 9px black;
+}
+
+h2, h3 {
+    color:white;
+    font-family:courier;
+    font-size:150%;
+    text-shadow:5px 5px 9px black;
 }
 
 input, label {
@@ -15,10 +22,6 @@ label, input[type="submit"]{
     margin-bottom: 10px;
     color:dark red;
     font-family:courier;
-}
-
-label, value[type="create"]{
-    font-family:courier
 }
 
 body {
