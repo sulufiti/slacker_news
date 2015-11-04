@@ -2,7 +2,7 @@ var Controller = (function(){
   var myDataRef
 
   function Controller(){
-    myDataRef = new Firebase('https://slacker-sulu.firebaseIO.com/posts');
+    myDataRef = new Firebase('https://slacker-sulu.firebaseIO.com/posts')
   }
 
   Controller.prototype.createPost = function(event){
@@ -16,8 +16,15 @@ var Controller = (function(){
     $(form).serializeArray().forEach(function(field){
       data[field.name] = field.value
     })
+
+    Controller.prototype.showPost = function(event){
+      myDataref.on('child-added'), function(snapshot){
+        var Post = snapshot.val()
+        console.log(snapshot)
+      }
+
+    }
     return data
   }
-
-  return Controller
+    return Controller
 })()
