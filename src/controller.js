@@ -10,6 +10,7 @@ var Controller = (function(){
   Controller.prototype.createPost = function(event){
     event.preventDefault()
     data = dataFromForm(event.target)
+    event.target.reset()
     myDataRef.push(data)
   }
 
