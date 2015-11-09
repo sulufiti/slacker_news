@@ -2,7 +2,7 @@ h1 {
     color:white;
     font-family:courier;
     font-size:250%;
-    text-shadow:5px 5px 9px cyan;
+    text-shadow:5px 5px 9px black;
     margin-left: -20px;
 }
 
@@ -10,7 +10,7 @@ h2, h3 {
     color:white;
     font-family:courier;
     font-size:150%;
-    text-shadow:5px 5px 9px black;
+    /*text-shadow:5px 5px 9px black;*/
 }
 
 input, label {
@@ -25,11 +25,11 @@ body {
 }
 
 .post {
-    color:white;
-    font-family:;
-    font-size:80%;
-    text-shadow:5px 5px 9px red;
-    margin-left: 20px;
+    color:black;
+    font-family:courier;
+    font-size:50%;
+    /*text-shadow:5px 5px 9px red;
+    margin-left: 20px;*/
 
 }
 
