@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
     <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+    <script src='src/view.js'></script>
     <script src='src/controller.js'></script>
     <script src='src/index.js'></script>
   </head>
@@ -13,17 +14,21 @@
   <body>
     <div id="create-post">
       <h2>create posts</h2>
-      <form>
+      <form id="myForm">
         <label for="title">title</label>
         <input type="text" name="title" id="title"/>
         <label for="post">post</label>
         <textarea name="post" id="post"></textarea>
         <input type="submit" value="post"/>
-    <h3>show posts</h3>
+      </form>
+ </div>
+     <h3>show posts</h3>
+
+ <div id="posts"> </div>
 
 
-     </form>
-   </div>
+
+
   </body>
 </html>
 

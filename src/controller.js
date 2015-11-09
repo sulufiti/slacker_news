@@ -1,7 +1,9 @@
 var Controller = (function(){
   var myDataRef
+  var view
 
   function Controller(){
+    view = new View()
     myDataRef = new Firebase('https://slacker-sulu.firebaseIO.com/posts')
   }
 
