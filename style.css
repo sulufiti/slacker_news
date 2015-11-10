@@ -11,10 +11,12 @@ h1 {
 h2, h3 {
     color:#d8d8d8;
     font-family:courier;
-    font-size:200%;
+    font-size:180%;
     text-shadow:3px 3px 4px black;
-    margin-bottom: 10px;
     margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: 80px;
+
 }
 
 input, label {
@@ -24,16 +26,15 @@ input, label {
 }
 
 body {
-    background-color: #d8d8d8;
+    background-color: #c9c9c9;
     /*background-image: linear-gradient(to right, grey, white);*/
     margin-left: 30px;
 }
 
 #post {
     height: 200px;
-    width: 730px;
-    background-color: #d8d8d8;
-        font-family:comic sans;
-
+    width: 300px;
+    background-color: #c9c9c9;
+    border-color: black;
 
 }
