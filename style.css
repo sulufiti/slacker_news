@@ -2,7 +2,8 @@ h1 {
     color:white;
     font-family:courier;
     font-size:250%;
-    text-shadow:5px 5px 9px cyan;
+    text-shadow:5px 5px 10px cyan;
+    transform: rotate(1deg)
     margin-left: -20px;
 }
 
@@ -21,6 +22,7 @@ input, label {
 
 body {
     background-color: grey;
+    background-image: linear-gradient(to right, grey, black);
     margin-left: 30px;
 }
 

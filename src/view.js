@@ -8,4 +8,11 @@
       "</div></div>")
   }
   return View
+
+  function delete_post
 })()
+
+
+// var template = $('#handlebar-posts').html()
+//  var templateScript = Handlebars.compile(template)
+//  var context = {}
