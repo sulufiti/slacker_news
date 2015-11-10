@@ -1,5 +1,5 @@
 h1 {
-    color:white;
+    color:#d8d8d8;
     font-family:courier;
     font-size:520%;
     text-shadow:5px 5px 6px black;
@@ -9,9 +9,9 @@ h1 {
 }
 
 h2, h3 {
-    color:white;
+    color:#d8d8d8;
     font-family:courier;
-    font-size:150%;
+    font-size:200%;
     text-shadow:3px 3px 4px black;
     margin-bottom: 10px;
     margin-top: 0px;
@@ -24,14 +24,15 @@ input, label {
 }
 
 body {
-    background-color: white;
-    background-image: linear-gradient(to right, white, grey);
+    background-color: #d8d8d8;
+    /*background-image: linear-gradient(to right, grey, white);*/
     margin-left: 30px;
 }
 
 #post {
     height: 200px;
-    width: 500px;
+    width: 730px;
+    background-color: #d8d8d8;
         font-family:comic sans;
 
 
