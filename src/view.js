@@ -9,7 +9,7 @@
   }
   return View
 
-  function delete_post
+  // function delete_post
 })()
 
 
