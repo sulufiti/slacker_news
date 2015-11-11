@@ -6,7 +6,6 @@ h1 {
     margin-left: -20px;
     margin-bottom: 0px;
     margin-top: 0px;
-
 }
 
 h1.responsive-text{
@@ -17,43 +16,54 @@ h2, h3 {
     color:#d8d8d8;
     font-family:courier;
     font-size:165%;
-    text-shadow:3px 3px 4px black;
+    text-shadow:5px 5px 6px black;
     margin-top: 0px;
     margin-bottom: 30px;
     margin-right: 80px;
-
 }
 
 h2.responsive-text{
-    font-size: 1vw;
-}
-
-input, label {
-    display:block;
-    margin-top: 60px;
-    font-family:courier;
+    font-size: 3vw;
 }
 
 body {
     background-color: #c9c9c9;
-    /*background-image: linear-gradient(to right, grey, white);*/
     margin-left: 30px;
-    height: 100vh;
-    font-family: courier; font-weight: normal ;color: #282828;
-
+    font-family: courier; font-weight: normal ;color: #434343;
 }
 
-@media (min-width: 500px) {
-}
+@media (min-width: 500px) {}
 
 #post {
     height: 200px;
     width: 300px;
     background-color: #c9c9c9;
-    border-color: #43524C;
-
+    border-color: #5D5D5D;
+        font-family: courier;
 }
 
 #post.responsive-text{
     font-size: 3vw;
 }
+
+button{
+    position:absolute;
+    bottom:10px;
+    left:10px;
+      /*border-color: #43524C;*/
+    font-family:'Courier New'; font-size:15px; color: #5D5D5D;
+    background-color: #c9c9c9;
+    border-style: bold;
+}
+
+div {
+    display:inline-block;
+    position:relative;
+    font-family:'Courier New'; font-size:20px; color: #5D5D5D;
+    }
+
+#posts {
+        font-family:'Courier New'; font-size:20px; color: red;
+
+}
+
