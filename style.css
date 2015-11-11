@@ -1,6 +1,6 @@
 h1 {
     color:#d8d8d8;
-    font-family:courier;
+    font-family:'courier new';
     font-size:520%;
     text-shadow:5px 5px 6px black;
     margin-left: -20px;
@@ -14,32 +14,32 @@ h1.responsive-text{
 
 h2, h3 {
     color:#d8d8d8;
-    font-family:courier;
-    font-size:165%;
+    font-family:'courier new';
+    font-size:140%;
     text-shadow:5px 5px 6px black;
     margin-top: 0px;
     margin-bottom: 30px;
     margin-right: 80px;
 }
 
-h2.responsive-text{
+*h2.responsive-text{
     font-size: 3vw;
 }
 
 body {
     background-color: #c9c9c9;
     margin-left: 30px;
-    font-family: courier; font-weight: normal ;color: #434343;
 }
 
 @media (min-width: 500px) {}
 
 #post {
     height: 200px;
-    width: 300px;
+    width: 340px;
+    float:;
     background-color: #c9c9c9;
     border-color: #5D5D5D;
-        font-family: courier;
+    font-family:'courier new';
 }
 
 #post.responsive-text{
@@ -47,23 +47,18 @@ body {
 }
 
 button{
-    position:absolute;
-    bottom:10px;
-    left:10px;
-      /*border-color: #43524C;*/
     font-family:'Courier New'; font-size:15px; color: #5D5D5D;
     background-color: #c9c9c9;
-    border-style: bold;
 }
 
 div {
-    display:inline-block;
-    position:relative;
     font-family:'Courier New'; font-size:20px; color: #5D5D5D;
     }
 
-#posts {
+footer {
         font-family:'Courier New'; font-size:20px; color: red;
-
 }
 
+footer.responsive-text{
+    font-size: 3vw;
+}
